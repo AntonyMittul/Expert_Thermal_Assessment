@@ -1,5 +1,6 @@
 __pycache__/
 *.pyc
 docs/
+ANSWERS_Tasks_2-4.md
 Heat_Sink_calculation.py
 *.pdf

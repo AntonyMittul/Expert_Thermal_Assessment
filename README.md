@@ -12,7 +12,8 @@ calculation script provided by Expert Thermal.
 | `train_surrogate.py` | Trains and evaluates two surrogate models (Linear Regression, Random Forest) |
 | `sensitivity_analysis.py` | Pearson/Spearman correlations + permutation importance + trend plots |
 | `REPORT.md` | Summary report: assumptions, results, model comparison, limitations |
-| `ANSWERS_Tasks_2-4.md` | Written responses for Tasks 2–4 |
+
+Written responses for Tasks 2–4 are submitted separately via email.
 
 ## How to run
 
