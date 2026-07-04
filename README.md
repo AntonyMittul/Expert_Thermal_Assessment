@@ -11,6 +11,7 @@ calculation script provided by Expert Thermal.
 | `generate_dataset.py` | Full-factorial parameter sweep → `data/heat_sink_dataset.csv` (8,280 points) |
 | `train_surrogate.py` | Trains and evaluates two surrogate models (Linear Regression, Random Forest) |
 | `sensitivity_analysis.py` | Pearson/Spearman correlations + permutation importance + trend plots |
+| `app.py` | Interactive Streamlit demo — live physics vs. surrogate comparison |
 | `REPORT.md` | Summary report: assumptions, results, model comparison, limitations |
 
 Written responses for Tasks 2–4 are submitted separately via email.
@@ -22,6 +23,7 @@ pip install numpy pandas scikit-learn matplotlib
 python generate_dataset.py       # creates data/heat_sink_dataset.csv
 python train_surrogate.py        # creates results/model_metrics.csv + plots
 python sensitivity_analysis.py   # creates correlation/importance CSVs + plots
+streamlit run app.py             # interactive demo (http://localhost:8501)
 ```
 
 ## Key results at a glance
