@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+docs/
+Heat_Sink_calculation.py
+*.pdf

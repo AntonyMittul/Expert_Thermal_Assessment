@@ -1,0 +1,7 @@
+target,feature,importance
+R_total_C_W,TDP_W,0.0
+R_total_C_W,V_air_m_s,1.8247326097169954
+R_total_C_W,k_tim_W_mK,0.2532352211057843
+T_junction_C,TDP_W,1.9207329779045779
+T_junction_C,V_air_m_s,0.09507350325888853
+T_junction_C,k_tim_W_mK,0.013389438013365484
