@@ -3,6 +3,11 @@
 Heat sink thermal model parameter sweep + ML surrogate models, based on the
 calculation script provided by Expert Thermal.
 
+**🌡️ Live interactive demo:** https://expertthermalassessment-kudzreqkcmxp85bietq7vk.streamlit.app/
+
+Move the TDP / airflow / TIM sliders and compare the physics model against
+the ML surrogate side by side — no installation needed.
+
 ## Repository structure
 
 | File | Purpose |

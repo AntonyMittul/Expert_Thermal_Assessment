@@ -1,5 +1,8 @@
 # Summary Report — Heat Sink ML Surrogate Model
 
+**Live demo:** https://expertthermalassessment-kudzreqkcmxp85bietq7vk.streamlit.app/ ·
+**Repository:** https://github.com/AntonyMittul/Expert_Thermal_Assessment
+
 ## 1. Assumptions and justifications
 
 - **Physics kept identical to the provided base script.** The assessment asks
