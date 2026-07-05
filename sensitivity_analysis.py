@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Correlation and sensitivity analysis for the heat sink dataset.
 
@@ -11,7 +10,6 @@ Three views, because they answer slightly different questions:
 """
 
 import os
-import numpy as np
 import pandas as pd
 import matplotlib
 

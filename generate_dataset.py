@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Parameter sweep over the heat sink model.
 
@@ -18,9 +17,9 @@ import pandas as pd
 from heat_sink_model import compute_thermals
 
 # grid resolution: 23 x 30 x 12 = 8280 design points
-tdp_values = np.arange(30, 251, 10)          # 30, 40, ..., 250 W
-velocity_values = np.arange(0.5, 15.01, 0.5) # 0.5, 1.0, ..., 15 m/s
-k_tim_values = np.arange(1, 13, 1)           # 1, 2, ..., 12 W/m.K
+tdp_values = np.arange(30, 251, 10)
+velocity_values = np.arange(0.5, 15.01, 0.5)
+k_tim_values = np.arange(1, 13, 1)
 
 rows = []
 for tdp in tdp_values:

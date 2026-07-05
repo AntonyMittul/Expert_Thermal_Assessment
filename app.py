@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Streamlit demo for the heat sink ML surrogate assessment.
 
@@ -10,7 +9,6 @@ user moves the input sliders.
 
 import os
 
-import numpy as np
 import pandas as pd
 import streamlit as st
 from sklearn.ensemble import RandomForestRegressor

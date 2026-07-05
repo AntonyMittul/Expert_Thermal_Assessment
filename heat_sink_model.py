@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Heat sink thermal model - refactored from the base script provided by
 Expert Thermal/XThermal so that the key operating parameters (TDP, air
@@ -7,8 +6,6 @@ velocity, TIM conductivity) can be passed in as arguments.
 The physics is kept identical to the original script:
 junction -> case (R_jc) -> TIM (R_tim) -> heat sink convection (R_conv) -> ambient
 """
-
-import numpy as np
 
 # ---- Fixed geometry (from the original script / reference report) ----
 L_DIE = 0.0525          # die length, m

@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 ML surrogate models for the heat sink dataset.
 
